@@ -44,12 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98c9442d438b03e48aa9c229de374b9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  brokerAddress: broker.emqx.io
-  brokerPort: 1883
-  isEncrypted: 0
-  connectionDelay: 500
-  timeoutOnConnection: 30000
-  autoConnect: 1
-  mqttUserName: 
-  mqttPassword: 
+  brokerAddress: wss://broker.emqx.io:8084/mqtt
   messageReceived: {fileID: 11400000, guid: c318357ca3ba3e6479101b399ab7eadf, type: 2}
